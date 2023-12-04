@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url(photo1.svg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+  
+  .just-text-main {
+    color: #ff0000;
+    width: 100%;
+    text-indent: 50px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    padding-left: 80px;
+    font-size: 40px;
+  }
+  
+  .just-text {
+    color: #000000;
+    text-indent: 30px;
+    position: relative;
+    text-align: center;
+    top: 200px;
+    padding-left: 300px;
+    font-size: 30px;
+  }
+  
+  .photo2 {
+    position: relative;
+    width: 35%;
+    height: auto;
+    padding-left: 200px;
+  }
