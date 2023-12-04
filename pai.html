@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Technikum VK</title>
+    <link rel="stylesheet" href="cssy.css" />
+  </head>
+  <body>
+    <header class="menu1">
+      <nav>
+        <ul>
+          <li><a href="index.html">Główna</a></li>
+          <li><a href="pai.html">Programowanie aplikacji internetowych</a></li>
+          <li><a href="ppai.html">Pracownia programowania aplikacji internetowych</a></li>
+          <li><a href="#" id="hyperlink1">Witryny internetowe</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="wyglaxd">
+      <div class="tekst2">
+        <center><h1>PROGRAMOWANIE APLIKACJI INTERNETOWYCH</h1></center>
+      </div>
+    </br>
+      <div class="tekst2">
+        <h1>Wybierz przycisk dlatego, żeby zobaczyć wynik zadania w nowej zakładce</h1>
+      </div>
+      <nav>
+        <ul>
+            <li class="btn"><a href="INSTRUKCJE_WARUNKOWE_ZADANIA_VK/instrukcje_warunkowe_zadania.html" target="_blank">Instrukcje warunkowe</a></li>
+            <li class="btn"><a href="images/wynik.png" target="_blank">Wynik testu</a></li>
+        </ul>
+      </nav>
+    </main>
+    <div id="passwordForm" class="password-form hidden">
+      <div class="password-overlay"></div>
+      <div class="password-container">
+          <label for="password">Napisz hasło:</label>
+          <input type="password" id="password" />
+          <button onclick="checkPassword()">OK</button>
+          <button onclick="closeForm()">X</button>
+          <p id="errorMessage" class="error-message"></p>
+      </div>
+  </div>
+
+  <script src="script.js"></script>
+  </body>
+</html>

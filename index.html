@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technikum VK</title>
+    <link rel="stylesheet" href="cssy.css" />
+</head>
+<body>
+    <header class="menu">
+        <nav>
+            <ul>
+                <li><a href="index.html">Główna</a></li>
+                <li><a href="pai.html">Programowanie aplikacji internetowych</a></li>
+                <li><a href="ppai.html">Pracownia programowania aplikacji internetowych</a></li>
+                <li><a href="#" id="hyperlink1">Witryny internetowe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="wyglaxd">
+        <div class="tekst1">
+            <h1>Na tej stronie internetowej są wyniki moich zadań.</h1>
+        </div>
+    </main>
+
+    <div id="passwordForm" class="password-form hidden">
+        <div class="password-overlay"></div>
+        <div class="password-container">
+            <label for="password">Napisz hasło:</label>
+            <input type="password" id="password" />
+            <button onclick="checkPassword()">OK</button>
+            <button onclick="closeForm()">X</button>
+            <p id="errorMessage" class="error-message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
